@@ -1,10 +1,10 @@
 // Split into separate configuration file/module
 const CONFIG = {
   CHAT_URL: '__CHAT_WIDGET_HOST__',
-  API_URL: '__ROWBOAT_HOST__/api/widget/v1',
+  API_URL: '__JARBOT_HOST__/api/widget/v1',
   STORAGE_KEYS: {
-    MINIMIZED: 'rowboat_chat_minimized',
-    SESSION: 'rowboat_session_id'
+    MINIMIZED: 'jarbot_chat_minimized',
+    SESSION: 'jarbot_session_id'
   },
   IFRAME_STYLES: {
     MINIMIZED: {
@@ -37,7 +37,7 @@ class SessionManager {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-client-id': window.ROWBOAT_CONFIG.clientId
+          'x-client-id': window.JARBOT_CONFIG.clientId
         },
       });
       

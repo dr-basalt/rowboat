@@ -47,12 +47,12 @@ const TOUR_STEPS: TourStep[] = [
     },
     {
         target: 'deploy',
-        content: 'Deploy your workflow version to make it live.\nThis will make your workflow available for use via the API and SDK.\n\nLearn more:\n• <a href="https://docs.rowboatlabs.com/using_the_api/" target="_blank" class="text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300">Using the API</a>\n• <a href="https://docs.rowboatlabs.com/using_the_sdk/" target="_blank" class="text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300">Using the SDK</a>',
+        content: 'Deploy your workflow version to make it live.\nThis will make your workflow available for use via the API and SDK.\n\nLearn more:\n• <a href="https://docs.ori3com.com/using_the_api/" target="_blank" class="text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300">Using the API</a>\n• <a href="https://docs.ori3com.com/using_the_sdk/" target="_blank" class="text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300">Using the SDK</a>',
         title: 'Step 8/9'
     },
     {
         target: 'tour-button',
-        content: 'Come back here anytime to restart the tour.\nStill have questions? See our <a href="https://docs.rowboatlabs.com/" target="_blank" class="text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300">docs</a> or reach out on <a href="https://discord.gg/rxB8pzHxaS" target="_blank" class="text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300">discord</a>.',
+        content: 'Come back here anytime to restart the tour.\nStill have questions? See our <a href="https://docs.ori3com.com/" target="_blank" class="text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300">docs</a> or reach out on <a href="https://discord.gg/rxB8pzHxaS" target="_blank" class="text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300">discord</a>.',
         title: 'Step 9/9'
     }
 ];

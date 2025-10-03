@@ -16,7 +16,7 @@ import { useCopilot } from "./use-copilot";
 import { BillingUpgradeModal } from "@/components/common/billing-upgrade-modal";
 import { SHOW_COPILOT_MARQUEE } from "@/app/lib/feature_flags";
 import Image from "next/image";
-import mascot from "@/public/mascot.png";
+// import mascot from "@/public/mascot.png"; // Removed for white-label
 
 const CopilotContext = createContext<{
     workflow: z.infer<typeof Workflow> | null;

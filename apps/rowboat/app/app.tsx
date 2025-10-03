@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import logo from "@/public/logo.png";
+// import logo from "@/public/logo.png"; // Removed for white-label
 import { useUser } from "@auth0/nextjs-auth0";
 import { useRouter } from "next/navigation";
 import { Spinner } from "@heroui/react";

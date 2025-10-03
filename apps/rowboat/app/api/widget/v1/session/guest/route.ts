@@ -3,7 +3,7 @@ import { clientIdCheck } from "../../utils";
 import { SignJWT } from "jose";
 import { z } from "zod";
 import { Session } from "../../utils";
-import { apiV1 } from "rowboat-shared";
+import { apiV1 } from "jarbot-shared";
 
 export async function POST(req: NextRequest): Promise<Response> {
     return await clientIdCheck(req, async (projectId) => {

@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
-import { apiV1 } from "rowboat-shared";
+import { apiV1 } from "jarbot-shared";
 import { z } from "zod";
 import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownTrigger, Textarea } from "@nextui-org/react";
 import MarkdownContent from "./markdown-content";
@@ -105,7 +105,7 @@ function ChatWindowMessages({
 
   return <div className="flex flex-col grow p-2 gap-4 overflow-auto">
     <AssistantMessage>
-      Hello! I&apos;m Rowboat, your personal assistant. How can I help you today?
+      Hello! I&apos;m Jarbot, your personal assistant. How can I help you today?
     </AssistantMessage>
     {messages.map((message, index) => {
       switch (message.role) {

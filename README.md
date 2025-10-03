@@ -5,28 +5,28 @@
 
 <p align="center" style="display: flex; justify-content: center; gap: 20px; align-items: center;">
   <a href="https://trendshift.io/repositories/13609" target="blank">
-    <img src="https://trendshift.io/api/badge/repositories/13609" alt="rowboatlabs%2Frowboat | Trendshift" width="250" height="55"/>
+    <img src="https://trendshift.io/api/badge/repositories/13609" alt="ori3com%2Fjarbot | Trendshift" width="250" height="55"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://docs.rowboatlabs.com/" target="_blank" rel="noopener">
+  <a href="https://docs.ori3com.com/" target="_blank" rel="noopener">
     <img alt="Docs" src="https://img.shields.io/badge/Docs-8b5cf6?labelColor=8b5cf6&logo=readthedocs&logoColor=white">
   </a>
   <a href="https://discord.gg/rxB8pzHxaS" target="_blank" rel="noopener">
     <img alt="Discord" src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white&labelColor=5865F2">
   </a>
-  <a href="https://www.rowboatlabs.com/" target="_blank" rel="noopener">
+  <a href="https://www.ori3com.com/" target="_blank" rel="noopener">
     <img alt="Website" src="https://img.shields.io/badge/Website-10b981?labelColor=10b981&logo=window&logoColor=white">
   </a>
-  <a href="https://www.youtube.com/@RowBoatLabs" target="_blank" rel="noopener">
+  <a href="https://www.youtube.com/@Ori3Com" target="_blank" rel="noopener">
     <img alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0000?labelColor=FF0000&logo=youtube&logoColor=white">
   </a>
-  <a href="https://www.linkedin.com/company/rowboat-labs" target="_blank" rel="noopener">
+  <a href="https://www.linkedin.com/company/ori3com" target="_blank" rel="noopener">
     <img alt="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff">
   </a>
-  <a href="https://x.com/intent/user?screen_name=rowboatlabshq" target="_blank" rel="noopener">
-    <img alt="Twitter" src="https://img.shields.io/twitter/follow/rowboatlabshq?style=social">
+  <a href="https://x.com/intent/user?screen_name=ori3comhq" target="_blank" rel="noopener">
+    <img alt="Twitter" src="https://img.shields.io/twitter/follow/ori3comhq?style=social">
   </a>
   <a href="https://www.ycombinator.com" target="_blank" rel="noopener">
     <img alt="Y Combinator" src="https://img.shields.io/badge/Y%20Combinator-S24-orange">
@@ -37,7 +37,7 @@
 </h5>
 <p align="center">
 ⚡ Build agent swarms instantly with natural language | 🔌 Connect tools with one-click integrations | 📂 Power with knowledge by adding documents for RAG | 🔄 Automate workflows by setting up triggers and actions | 🚀 Deploy anywhere via API or SDK<br><br>
-☁️ Prefer a hosted version? Use our <b><a href="https://rowboatlabs.com">cloud</a></b> to starting building agents right away!
+☁️ Prefer a hosted version? Use our <b><a href="https://ori3com.com">cloud</a></b> to starting building agents right away!
 </p>
 
 
@@ -47,10 +47,10 @@
    export OPENAI_API_KEY=your-openai-api-key  
    ```
       
-2. Clone the repository and start Rowboat (requires Docker)
+2. Clone the repository and start Jarbot (requires Docker)
    ```bash
-   git clone git@github.com:rowboatlabs/rowboat.git
-   cd rowboat
+   git clone git@github.com:ori3com/jarbot.git
+   cd jarbot
    ./start.sh
    ```
 
@@ -72,14 +72,14 @@ Chat with the copilot to build a personal assistant. Watch the full demo [here](
 [![personal-assistant](https://github.com/user-attachments/assets/0f1c0ffd-23ba-4b49-8bfb-ec7a846f1332)](https://youtu.be/6r7P4Vlcn2g)
 
 ## Advanced
-1. Native RAG Support: Enable file uploads and URL scraping with Rowboat's built-in RAG capabilities – see [RAG Guide](https://docs.rowboatlabs.com/docs/using-rowboat/rag).
+1. Native RAG Support: Enable file uploads and URL scraping with Jarbot's built-in RAG capabilities – see [RAG Guide](https://docs.ori3com.com/docs/using-jarbot/rag).
 
-2. Custom LLM Providers: Use any LLM provider, including aggregators like OpenRouter and LiteLLM - see [Using more LLM providers](https://docs.rowboatlabs.com/docs/using-rowboat/customise/custom-llms).
+2. Custom LLM Providers: Use any LLM provider, including aggregators like OpenRouter and LiteLLM - see [Using more LLM providers](https://docs.ori3com.com/docs/using-jarbot/customise/custom-llms).
 
-3. Tools & Triggers: Add tools and event triggers (e.g., Gmail, Slack) for automation – see [Tools](https://docs.rowboatlabs.com/docs/using-rowboat/tools) & [Triggers](https://docs.rowboatlabs.com/docs/using-rowboat/triggers).
+3. Tools & Triggers: Add tools and event triggers (e.g., Gmail, Slack) for automation – see [Tools](https://docs.ori3com.com/docs/using-jarbot/tools) & [Triggers](https://docs.ori3com.com/docs/using-jarbot/triggers).
 
-4. API & SDK: Integrate Rowboat agents directly into your app – see [API](https://docs.rowboatlabs.com/docs/api-sdk/using_the_api) & [SDK](https://docs.rowboatlabs.com/docs/api-sdk/using_the_sdk) docs.
+4. API & SDK: Integrate Jarbot agents directly into your app – see [API](https://docs.ori3com.com/docs/api-sdk/using_the_api) & [SDK](https://docs.ori3com.com/docs/api-sdk/using_the_sdk) docs.
 
 ##
 
-Refer to [Docs](https://docs.rowboatlabs.com/) to learn how to start building agents with Rowboat.
+Refer to [Docs](https://docs.ori3com.com/) to learn how to start building agents with Jarbot.

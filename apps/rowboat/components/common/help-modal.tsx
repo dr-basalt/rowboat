@@ -28,13 +28,13 @@ export function HelpModal({ isOpen, onClose, onStartTour }: HelpModalProps) {
                         <div>
                             <div className="font-medium text-base text-gray-900 dark:text-gray-100">Take Product Tour</div>
                             <div className="text-sm text-gray-500 dark:text-gray-400">
-                                Learn about RowBoat&apos;s features
+                                Learn about Jarbot&apos;s features
                             </div>
                         </div>
                     </Button>
 
                     <a 
-                        href="https://docs.rowboatlabs.com/"
+                        href="https://docs.ori3com.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block"

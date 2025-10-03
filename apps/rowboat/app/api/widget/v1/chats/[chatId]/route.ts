@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { apiV1 } from "rowboat-shared";
+import { apiV1 } from "jarbot-shared";
 import { db } from "../../../../../lib/mongodb";
 import { z } from "zod";
 import { ObjectId } from "mongodb";

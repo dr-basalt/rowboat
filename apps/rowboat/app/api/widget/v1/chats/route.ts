@@ -2,7 +2,7 @@ import { NextRequest } from "next/server";
 import { db } from "../../../../lib/mongodb";
 import { z } from "zod";
 import { ObjectId } from "mongodb";
-import { apiV1 } from "rowboat-shared";
+import { apiV1 } from "jarbot-shared";
 import { authCheck } from "../utils";
 
 const chatsCollection = db.collection<z.infer<typeof apiV1.Chat>>("chats");

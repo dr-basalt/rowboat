@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { Sparkles } from "lucide-react";
 import { SHOW_COPILOT_MARQUEE } from "@/app/lib/feature_flags";
 import Image from "next/image";
-import mascot from "@/public/mascot.png";
+// import mascot from "@/public/mascot.png"; // Removed for white-label
 
 export function ActionButton({
     icon = null,
